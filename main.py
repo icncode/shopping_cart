@@ -2,6 +2,7 @@ def info(request):
     if request == 'Help': # Help menu for new users
         print("""\nHere at Food-R-Us we want to help people
 we do this by offering food at discount rates.
+
 You may view our menu by entering 'menu'.
 In your cart you may 'add', 'remove' or 'see cart' items, 
 When you are all finished, say 'checkout'.\n""")
